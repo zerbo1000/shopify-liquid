@@ -3,14 +3,20 @@
 {%- schema -%}
 {
     "name":"Liquid Reference",
-    "setting": [
+    "settings": [
         {
             "id":"liquid-ref",
             "type":"text",
             "label":"A Reference for Shopify Liquid"
         }
     ],
-    "templates":["index","page","product"]
+    "templates":["index","page","product"],
+    "presets":[
+        {
+            "name":"Liquid Reference",
+            "category":"Reference"
+        }
+    ]    
     
 }
 {%- endschema -%}
