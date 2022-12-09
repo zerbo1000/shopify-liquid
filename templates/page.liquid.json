@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "ee23667a-0af4-4ccb-9167-d5b6096db115": {
+      "type": "rich-text",
+      "blocks": {
+        "c959fa89-ca1a-467b-964b-52b156619215": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Object<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "c959fa89-ca1a-467b-964b-52b156619215"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "cf383664-2e2e-45c7-bc04-2990f2dde735": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ page.title}}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ebb09a09-1c5d-41ff-8c5a-30482dd1ab92": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17188095951134__ebb09a09-1c5d-41ff-8c5a-30482dd1ab92-16706079518baaa87b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Tag<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17188095951134__ebb09a09-1c5d-41ff-8c5a-30482dd1ab92-16706079518baaa87b-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "9cf99a1f-19df-4fd4-b0e1-b9097ff11389": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title == 'Liquid'   %}  Yes, the title is Liquid\n\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "babf743b-5775-43b7-b525-4faddbb37af8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% unless page.title == 'liquid' %}\nThe page title is not liquid\n{% endunless %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ab0ba077-dccf-47b8-b33b-bf4a730fd4d2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title == 'Liquid' %}\nThe page title is Liquid\n{% else %}\nThe page title is not liquid\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d7983154-6970-4596-85a4-b7c01412e713": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17188095951134__d7983154-6970-4596-85a4-b7c01412e713-16706079518baaa87b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Filter<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17188095951134__d7983154-6970-4596-85a4-b7c01412e713-16706079518baaa87b-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "72218e28-5266-45d1-aa7f-2476139d934e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{  'hello world'  | capitalize }}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ee23667a-0af4-4ccb-9167-d5b6096db115",
+    "cf383664-2e2e-45c7-bc04-2990f2dde735",
+    "ebb09a09-1c5d-41ff-8c5a-30482dd1ab92",
+    "9cf99a1f-19df-4fd4-b0e1-b9097ff11389",
+    "babf743b-5775-43b7-b525-4faddbb37af8",
+    "ab0ba077-dccf-47b8-b33b-bf4a730fd4d2",
+    "d7983154-6970-4596-85a4-b7c01412e713",
+    "72218e28-5266-45d1-aa7f-2476139d934e"
+  ]
+}
