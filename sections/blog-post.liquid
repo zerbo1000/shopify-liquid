@@ -1,0 +1,26 @@
+{{ section.settings.liquid-range }}
+
+{% schema %}
+    {
+        "name":"Blog Posts",
+        "settings":[
+            {
+                "id":"liquid-range",
+                "type":"range",
+                "label":"Range",
+                "min":3,
+                "max":12,
+                "step":1,
+                "unit":"mtr",
+                "default":3
+
+            }
+        ],
+        "presets":[
+            {
+                "name":"Blog Post",
+                "category":"Posts"
+            }
+        ]
+    }
+{% endschema %}
