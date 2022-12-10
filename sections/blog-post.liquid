@@ -1,11 +1,19 @@
-{{ section.settings.liquid-range }}
+{{ section.settings.posts-range }}
+
+{% unless blog.article_count == 0 %}
+    
+    {{ blog.article_counts }}
+<br><br>
+    There are at least 1 blog post on this website
+    
+{% endunless %}
 
 {% schema %}
     {
-        "name":"Blog Posts",
+        "name":"New Blog Posts",
         "settings":[
             {
-                "id":"liquid-range",
+                "id":"posts-range",
                 "type":"range",
                 "label":"Range",
                 "min":3,
@@ -18,7 +26,7 @@
         ],
         "presets":[
             {
-                "name":"Blog Post",
+                "name":"New Blog Post",
                 "category":"Posts"
             }
         ]
