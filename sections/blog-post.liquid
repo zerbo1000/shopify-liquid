@@ -1,10 +1,11 @@
-{{ section.settings.posts-range }}
+{{ section.settings.liquid-range }}
 
-hello hello baby
+{% assign blog = section.setting.new-blog %}
+
+{{ blog.article_count }}
 
 {% unless blog.article_count == 0 %}
     
-    {{ blog.article_counts }}
 <br><br>
     There are at least 1 blog post on this website
     
@@ -23,7 +24,11 @@ hello hello baby
                 "step":1,
                 "unit":"mtr",
                 "default":3
-
+            },
+            {
+                "id":"new-blog",
+                "type":"blog",
+                "label":"Blog"
             }
         ],
         "presets":[
