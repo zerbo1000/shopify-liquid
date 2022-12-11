@@ -8,7 +8,7 @@
 {% unless blog.articles_count == 0 %}
     
     {%- comment -%} display article based on range {%- endcomment -%}
-    <div class="page-width" >
+    <div class="page-width" style="display:inline-flex ;" >
         <div class="grid grid--uniform grid--blog" >     
     {% for article in blog.articles limit: section.settings.posts-range %}
 
