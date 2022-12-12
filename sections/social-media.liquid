@@ -1,5 +1,6 @@
 {{ 'social/social-icons.css' | global_asset_url | stylesheet_tag }}
-<br><br>
+
+
 <div hidden>
   <span id="new-window-0">Opens in a new window</span>
 </div>
@@ -7,17 +8,16 @@
 <div class="page-width" >
 <h2> {{ section.settings.social-nav }} </h2>
 
-<ul class="social-media-menu">
+<ul class="social-media-menu" >
   {% for block in section.blocks  %}
 
-
-    <li>
+    <li style="list-style-type: none;" >
       <a href="{{ block.settings.social-url }}"
         target="_blank"
         rel="noopener"
         aria-label="{{ block.settings.social-name }}"
         aria-describedby="new-window-0">
-        <span class="shopify-social-icon-{{ block.settings.social-name | lowercase }}-circle" aria-hidden="true"></span>
+        <span class="shopify-social-icon-{{ block.settings.social-name | downcase }}-circle" aria-hidden="true"></span>
       </a>
     </li>
 
