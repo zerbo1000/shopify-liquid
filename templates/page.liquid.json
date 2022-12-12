@@ -112,7 +112,42 @@
     "30c78f04-525e-40f8-9e74-30d1306e8b1f": {
       "type": "blog-post",
       "settings": {
-        "posts-range": 7
+        "posts-range": 7,
+        "new-blog": "news"
+      }
+    },
+    "cd78f7c2-0529-404e-869e-db5e02290aaf": {
+      "type": "call-to-action",
+      "settings": {
+        "text-box": "CLICK TO LEARN MORE",
+        "link": "",
+        "linktext": "I want to learn more!"
+      }
+    },
+    "6bd1a623-d16c-495f-9d98-e3d50aa17624": {
+      "type": "social-media",
+      "blocks": {
+        "fd0111ee-10a4-40ee-8dd8-00c3f4bce53d": {
+          "type": "social-network",
+          "settings": {
+            "social-url": "https:\/\/www.instagram.com\/4rc71c_\/",
+            "social-name": "instagram"
+          }
+        },
+        "84548822-5d4c-444f-8005-ee5319a5b378": {
+          "type": "social-network",
+          "settings": {
+            "social-url": "https:\/\/www.facebook.com\/4rc71c_\/",
+            "social-name": "facebook"
+          }
+        }
+      },
+      "block_order": [
+        "fd0111ee-10a4-40ee-8dd8-00c3f4bce53d",
+        "84548822-5d4c-444f-8005-ee5319a5b378"
+      ],
+      "settings": {
+        "social-nav": "FOLLOW US ON SOCIAL MEDIA"
       }
     }
   },
@@ -125,6 +160,8 @@
     "d7983154-6970-4596-85a4-b7c01412e713",
     "72218e28-5266-45d1-aa7f-2476139d934e",
     "e8ddc224-2558-4ae1-b87e-a29e61c0b831",
-    "30c78f04-525e-40f8-9e74-30d1306e8b1f"
+    "30c78f04-525e-40f8-9e74-30d1306e8b1f",
+    "cd78f7c2-0529-404e-869e-db5e02290aaf",
+    "6bd1a623-d16c-495f-9d98-e3d50aa17624"
   ]
 }
